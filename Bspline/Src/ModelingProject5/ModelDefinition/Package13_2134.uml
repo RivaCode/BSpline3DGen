@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8015f6b8-a5cd-49a6-b417-155dc425189f"
+  name="BodyParts"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3607a194-fe98-4b33-b09a-717492c7be9a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBspline.Media.BodyParts"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6b67f039-3879-4ce5-9601-0cea49ac7ce7"
+        name="RightPosition"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0b689225-6e72-469e-8fa0-a24812c9f1eb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Media.dll Namespace%3DBspline.Media.BodyParts Type%3DRightPosition"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d9b332b2-5829-4378-bbba-4e5fb52a3525"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84b3ceab-28d9-4f0e-84cf-e0cc28398c79">
+                <propertyInstance
+                  Id="293af362-ec83-42a3-8446-1309805da4fe"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4211b8bf-bed7-4287-afc9-dee64985c0fd">
+                <propertyInstance
+                  Id="153fbcaf-5fc9-4fa3-80b5-bacc22553ff4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d343038-6fb5-4458-9a29-72cb0123272e">
+                <propertyInstance
+                  Id="8e12fe87-b3dd-4ed1-a709-7806d1ec0f12"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6642877-4c6f-4f4b-87bf-50b68aee7d7f">
+                <propertyInstance
+                  Id="08e7a169-5e26-45dc-a814-0ac3ff51d957"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96c48df8-8a1e-44e1-96a9-f67e2e6f56c3">
+                <propertyInstance
+                  Id="d5d9d99e-54bb-4790-93a4-b7843df7974c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2c1b0860-2c00-459e-896f-b491a639612a">
+            <interfaceMoniker
+              Id="7f6b3313-6ee9-4aaf-b059-ee1d8a87b438"
+              LastKnownName="IPosition"
+              LastKnownLocation="Package_2141.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="88c23fff-eebc-42c8-9471-562ccd928780"
+            isDerived="false"
+            sourceEndRoleName="RightPosition"
+            targetEndRoleName="Position"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="98558119-3b7c-4d47-bbed-9df69291d450"
+              LastKnownName="Point3D"
+              LastKnownLocation="Package_2141.uml" />
+            <description>Property Position references type Point3D.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ddee5f6e-59c3-4e2a-bf78-b9d28d7616fd"
+                  name="RightPosition"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4ded1740-5802-4126-ba21-0e594d01fb92"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="082bddcd-0641-4f0d-b9e9-3a0f2521536a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a1eecfab-8263-4c0c-aef0-3438b5645504"
+                  name="Position"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6bc11bfb-a234-4ff2-bb4b-6b84b57d9ca9"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7f24f22f-4d8c-4cae-8076-12ef39e5e04b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="ec9b5215-1258-4ac7-b3fd-b4f397437fb3"
+            name="Position"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f702aaef-7ee8-411e-8885-eaac9448d49a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Media.dll Namespace%3DBspline.Media.BodyParts Type%3DRightPosition Member%3DPosition"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d6095492-c9e4-4690-a7ac-e1b18f56bed6"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1de1e154-42ad-44b9-9ef6-9dbfba9d1715">
+                    <propertyInstance
+                      Id="b540f6bb-0e03-4189-b42b-0ef6ed326c1c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3e1c339-68f2-424a-862f-e895c3d39b85">
+                    <propertyInstance
+                      Id="cb0f4df3-53c9-40e1-a63f-114f951dae63"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16b731dc-f28e-452a-b09e-80b95a37f224">
+                    <propertyInstance
+                      Id="266f3519-570e-41eb-9785-318b53d7c781"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dafab678-3d53-44f7-b4bd-cdde8e817db0">
+                    <propertyInstance
+                      Id="62091c66-fe2b-44e8-a35c-7e1dd0e82b9d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c3389dc-a9cf-4de5-be8b-cc010b8ad060">
+                    <propertyInstance
+                      Id="eb45e9b0-bfc9-4768-a314-ebb51ad3c0c0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45806713-8204-430a-b8c2-863bb8a2b924">
+                    <propertyInstance
+                      Id="10b644aa-2c90-475e-a82e-c8a0c2c5cb80"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bf70849-36e2-4472-8ee7-068b00eb0e10">
+                    <propertyInstance
+                      Id="d531f6a3-ada1-460c-8324-311d9be945bf"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="98558119-3b7c-4d47-bbed-9df69291d450"
+                LastKnownName="Point3D"
+                LastKnownLocation="Package_2141.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0100fd2f-a341-49c1-9416-87744aa87a5c"
+            name="RightPosition"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="08d3ff56-d5b5-4594-addc-2b1f74146f55"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Media.dll Namespace%3DBspline.Media.BodyParts Type%3DRightPosition Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Core.dll Namespace%3DBspline.Core.Location Type%3DPoint3D)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d1413662-0afb-4e7a-8b64-8b17d4335e32"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0d55754-a68a-49c9-9135-b7d772da0139">
+                    <propertyInstance
+                      Id="d2e733ed-52d2-417d-bd69-3d23a8af35cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="207ee5db-f389-47b3-a962-e4cb97c197ba">
+                    <propertyInstance
+                      Id="7f3f7ef9-ff46-4858-874b-0511b350f737"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16015ff0-7722-4178-ba81-d36ed4685fb2">
+                    <propertyInstance
+                      Id="fcd0b8d1-5fa7-414e-8fe5-1972562f5536"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf5ea70c-0c48-426a-a675-7d6b55f979e1">
+                    <propertyInstance
+                      Id="0a0b11e3-f9a9-43c7-88bd-b5e3e874edc5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd0c14cd-fc9a-4fe1-b7b8-285bdf791846">
+                    <propertyInstance
+                      Id="30ee3a5f-7897-4e2d-bd69-9235d8204bf8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc4ae964-95bc-4d65-aa0b-8eebff73c32c">
+                    <propertyInstance
+                      Id="c1dd9fbf-623e-4af5-8e06-d62119831e70"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="947371ce-5de9-4573-9981-f4ceccbf7822"
+                  name="position"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d231943b-e807-440b-8f5d-dbc010724dc5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Media.dll Namespace%3DBspline.Media.BodyParts Type%3DRightPosition Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Core.dll Namespace%3DBspline.Core.Location Type%3DPoint3D)]) ParameterIdentifier%3Dposition"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="98558119-3b7c-4d47-bbed-9df69291d450"
+                      LastKnownName="Point3D"
+                      LastKnownLocation="Package_2141.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

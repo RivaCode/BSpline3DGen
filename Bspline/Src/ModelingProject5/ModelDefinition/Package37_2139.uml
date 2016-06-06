@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="de9a7c50-3284-403b-ac2f-e22c09c4d0db"
+  name="Toolkit"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ae130d1e-e5bf-44d6-92df-909f26807fb5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DXceed.Wpf.Toolkit"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b9d02574-bbd9-4d34-9b00-faf7f9f7181e"
+        name="IntegerUpDown"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ae638a53-71c9-4153-b99d-49cf127f6df9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FXceed.Wpf.Toolkit.dll Namespace%3DXceed.Wpf.Toolkit Type%3DIntegerUpDown"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="46211426-224a-4a78-a5b9-95ae0a5547f3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="34eddb82-a034-4696-9e6d-e6fa7c126409">
+                <propertyInstance
+                  Id="80723437-c8fe-4730-a66c-3b5eebbb7e09"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a8a5d64-15af-4cbe-81f2-7eef57bc5757">
+                <propertyInstance
+                  Id="0a6ba255-a5d1-499f-9d56-525210d50b48"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8aed9dac-9f1a-44ed-8edd-6252d537857b">
+                <propertyInstance
+                  Id="3ff7c394-6d2f-45f7-8ab4-84231ab6d5e4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7fd477cb-5ee2-4fd3-bd3b-3cd1eef61aa9">
+                <propertyInstance
+                  Id="73b03739-b579-444a-87af-6c1f11dd0a5b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f7ad077-dd28-470a-81a1-89d09c11eebf">
+                <propertyInstance
+                  Id="1a01f2fa-877f-4d28-a4cb-2938abf1f81e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

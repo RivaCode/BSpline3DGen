@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9b14a503-ee5e-49f2-be93-5c4fc22ec536"
+  name="Core"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b7078432-225d-44cf-9b48-9364559d23c1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBspline.Core"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e9b2cb73-4b56-4e63-8f1f-9334da4b529b"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package9_2134.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a97acb1c-8262-47f1-8212-aa9126fadc52"
+        LastKnownName="Location"
+        LastKnownLocation="Package12_2134.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="655c373c-e051-4c79-878c-ca52f822e933"
+        LastKnownName="AlgorithmResults"
+        LastKnownLocation="Package9_2139.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d7a3e064-e105-40c3-a68f-fe73b349cd8a"
+        LastKnownName="DataPacket"
+        LastKnownLocation="Package10_2139.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="b686e639-c7c6-4b20-a973-f4bf5b46b29e"
+        name="TEnum">
+        <referencesInternal>
+          <reference
+            Id="1b8a4ea4-16e6-438f-a96a-5fb681fb7cbf"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Core.dll Namespace%3DBspline.Core Type%3DBSplineUtility Member%3D(Name%3DGetEnumValues GenericParameterCount%3D1) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="96b9efcf-d82f-49d5-9968-ac289eececaa"
+        name="TName">
+        <referencesInternal>
+          <reference
+            Id="41943cdf-a26c-4526-8d93-97f74f2ae50d"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHomePC%2FSource%2FRepos%2FBspline3DGen%2FBspline%2FBin%2FBspline.Core.dll Namespace%3DBspline.Core Type%3DBSplineUtility Member%3D(Name%3DNameOf GenericParameterCount%3D1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D1 GenericArguments%3D[(ParameterIdentifier%3D0)]))]))]) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a389140a-026d-401e-b1eb-d735c401702e"
+  name="Recognition"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="dc082460-b080-4af0-8576-544292ea3313"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Speech.Recognition"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6c2308d7-8c2a-4706-b6b0-b9f83ea3c055"
+        name="SpeechRecognizedEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="22579ee4-bb19-433e-99de-f561fe51cca0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2Fassembly%2FGAC_MSIL%2FMicrosoft.Speech%2F11.0.0.0__31bf3856ad364e35%2FMicrosoft.Speech.dll Namespace%3DMicrosoft.Speech.Recognition Type%3DSpeechRecognizedEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3af423a0-4b5b-4356-88e6-4c833f322931"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="32a5814a-9dc9-47f5-b734-66170864b3fe">
+                <propertyInstance
+                  Id="196b15c4-b57d-4399-bfb3-66fc41fdc895"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3dcdd8db-16bb-4e7f-aa70-d5bb8367a9f1">
+                <propertyInstance
+                  Id="2da47fe9-8d8e-4fca-a528-3e78740c50a6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="222fdd20-3ed3-4db7-ab24-177ae0bf5d49">
+                <propertyInstance
+                  Id="00e382ce-e429-428a-91a1-ba76d303ed0f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f161c61-fec7-4c0e-874b-0bee9fed1340">
+                <propertyInstance
+                  Id="db3cacec-1988-4f38-a42d-f2c4f0e614e7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b74bbab9-c123-445e-a49d-3cb32e0f016c">
+                <propertyInstance
+                  Id="0a78f737-df44-45b8-9065-48f90f762608"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6128c38d-ff27-457d-bcfe-ca9fd7a04d9f"
+        name="RecognizerInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="54ff5d0f-2274-41b2-ba3b-fc6576272f81"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2Fassembly%2FGAC_MSIL%2FMicrosoft.Speech%2F11.0.0.0__31bf3856ad364e35%2FMicrosoft.Speech.dll Namespace%3DMicrosoft.Speech.Recognition Type%3DRecognizerInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6e547c26-cf73-42d5-9a69-e601d64e7bb4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c1a7a03-4519-4f46-b4bc-faf0b7751a6e">
+                <propertyInstance
+                  Id="d2b60071-cc13-41b1-bf20-f2400a263c8c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="39735925-688f-495d-9c88-1a849fa2d084">
+                <propertyInstance
+                  Id="7f25a950-1b69-4e3d-91b9-5cf620f92b41"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff2f1e7f-1f70-415c-af7a-cfb7cebd307e">
+                <propertyInstance
+                  Id="c57ef331-823b-4ba9-8d22-41722f9e33e4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c3189d8d-28b8-4391-adc8-b5536a3abcab">
+                <propertyInstance
+                  Id="58d53a3a-0d20-462d-9cc4-9986aed70c4d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="90cfea99-6851-4343-86b0-0d5b34ad98b0">
+                <propertyInstance
+                  Id="2ad1886b-f155-43a5-9236-5a38e3f2ec8f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eb181aa9-d63b-43cf-9872-5d4c27d39a29"
+        name="SpeechRecognitionEngine"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cf6caba5-3bc9-4a75-9336-97930ae718b3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FWindows%2Fassembly%2FGAC_MSIL%2FMicrosoft.Speech%2F11.0.0.0__31bf3856ad364e35%2FMicrosoft.Speech.dll Namespace%3DMicrosoft.Speech.Recognition Type%3DSpeechRecognitionEngine"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e004bc65-d3c6-4a06-80a1-dae3722e1603"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26d8a7b3-145c-4db4-b232-9fd57425332d">
+                <propertyInstance
+                  Id="ad9085f5-0533-4db3-932e-d813db73a46e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d324139-2333-407a-bd99-bce14303309c">
+                <propertyInstance
+                  Id="153450ce-1c86-4415-a596-5c1d6d0a1128"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b1568a4-aecb-4d15-bcd8-f86c6209d248">
+                <propertyInstance
+                  Id="3fc7a6e6-26ca-4e24-ab62-82b5038c6d2a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d94d7cb9-285c-4e95-b245-f893c4ac6768">
+                <propertyInstance
+                  Id="e6df89c8-10d5-4ce7-9323-4f905177c642"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78baf708-5fdd-4d86-886b-791d10782956">
+                <propertyInstance
+                  Id="3b0a3fc3-5b63-44ee-9a14-e1e85ec6bb95"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ba57400d-4b1a-4de8-ab6e-6a366829f032">
+            <interfaceMoniker
+              Id="e05b257f-62d6-460f-9907-4920dfdc188e"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package4_2134.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

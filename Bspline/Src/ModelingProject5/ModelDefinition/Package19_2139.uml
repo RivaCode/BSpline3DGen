@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8b0a6dae-ca16-4071-948b-a92d1db6b262"
+  name="Rendering"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="60a90e62-f3e1-4b70-a1f7-2405ffd2757f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBsplineKinect.Rendering"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="926e6fb0-b87c-4548-83cc-46528103d03c"
+        LastKnownName="Render"
+        LastKnownLocation="Package20_2139.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8feabeae-f18d-43e4-9372-6df7bd5a4a59"
+        LastKnownName="Factory"
+        LastKnownLocation="Package22_2139.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

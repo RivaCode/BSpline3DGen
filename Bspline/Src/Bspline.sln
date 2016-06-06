@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bspline.Core", "Bspline.Core\Bspline.Core.csproj", "{0726E6DD-5787-42B0-9F2D-8DCCEE08C600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bspline.Application", "Bspline.Application\Bspline.Application.csproj", "{1BBE7F00-EE55-4723-BF87-9900978CD119}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB2CDD3C-6FEA-495E-BA1F-5CCB25F89C4F} = {BB2CDD3C-6FEA-495E-BA1F-5CCB25F89C4F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bspline.WpfUI", "Bspline.WpfUI\Bspline.WpfUI.csproj", "{BB2CDD3C-6FEA-495E-BA1F-5CCB25F89C4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98ABDB69-EEC3-4769-A5C7-56AE009561E1} = {98ABDB69-EEC3-4769-A5C7-56AE009561E1}
+		{0726E6DD-5787-42B0-9F2D-8DCCEE08C600} = {0726E6DD-5787-42B0-9F2D-8DCCEE08C600}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bspline.Media", "Bspline.Media\Bspline.Media.csproj", "{324A5AC7-8E7E-4359-9FBD-A4395AF66E44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0726E6DD-5787-42B0-9F2D-8DCCEE08C600} = {0726E6DD-5787-42B0-9F2D-8DCCEE08C600}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bspline.Model", "Bspline.Model\Bspline.Model.csproj", "{98ABDB69-EEC3-4769-A5C7-56AE009561E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{324A5AC7-8E7E-4359-9FBD-A4395AF66E44} = {324A5AC7-8E7E-4359-9FBD-A4395AF66E44}
+		{0726E6DD-5787-42B0-9F2D-8DCCEE08C600} = {0726E6DD-5787-42B0-9F2D-8DCCEE08C600}
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ProjectModeling", "ModelingProject5\ProjectModeling.modelproj", "{8AF3EE85-097C-4641-896D-B44544A98906}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0726E6DD-5787-42B0-9F2D-8DCCEE08C600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0726E6DD-5787-42B0-9F2D-8DCCEE08C600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0726E6DD-5787-42B0-9F2D-8DCCEE08C600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0726E6DD-5787-42B0-9F2D-8DCCEE08C600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBE7F00-EE55-4723-BF87-9900978CD119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBE7F00-EE55-4723-BF87-9900978CD119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBE7F00-EE55-4723-BF87-9900978CD119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBE7F00-EE55-4723-BF87-9900978CD119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2CDD3C-6FEA-495E-BA1F-5CCB25F89C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2CDD3C-6FEA-495E-BA1F-5CCB25F89C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2CDD3C-6FEA-495E-BA1F-5CCB25F89C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2CDD3C-6FEA-495E-BA1F-5CCB25F89C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324A5AC7-8E7E-4359-9FBD-A4395AF66E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324A5AC7-8E7E-4359-9FBD-A4395AF66E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324A5AC7-8E7E-4359-9FBD-A4395AF66E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324A5AC7-8E7E-4359-9FBD-A4395AF66E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98ABDB69-EEC3-4769-A5C7-56AE009561E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98ABDB69-EEC3-4769-A5C7-56AE009561E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98ABDB69-EEC3-4769-A5C7-56AE009561E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98ABDB69-EEC3-4769-A5C7-56AE009561E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF3EE85-097C-4641-896D-B44544A98906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF3EE85-097C-4641-896D-B44544A98906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF3EE85-097C-4641-896D-B44544A98906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF3EE85-097C-4641-896D-B44544A98906}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ce279524-bdf5-4dcb-9374-46a44956526e"
+  name="Media3D"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="14071e05-154c-454b-a6b6-33370597d1d7"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Windows.Media.Media3D"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="44f5d31e-befa-48ae-a803-a78ed7155ae3"
+        name="GeometryModel3D"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="eed7315f-10c9-4c29-a46a-2907cb13eb67"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows.Media.Media3D Type%3DGeometryModel3D"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c41dd9c2-14d9-4434-804a-642fc1454f7c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="45639271-918a-49ee-9cd8-e274c892f170">
+                <propertyInstance
+                  Id="a12869ce-ef02-4774-9d4b-2896126dd9ea"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="caae71a3-49e8-4773-acb7-66546edc940e">
+                <propertyInstance
+                  Id="48fa3551-d05e-4b28-89c1-17c4cb56aa5d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fe11208-a6d5-41a1-b109-beff50de2f61">
+                <propertyInstance
+                  Id="8740edd1-1cba-4d61-bf5f-390c622f3554"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aac3b938-62d5-492f-8371-d47caceafd98">
+                <propertyInstance
+                  Id="170dfbf4-889f-411f-8f3b-43dacd49074d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7dac77b7-3a45-4115-b27d-00c81c332b95">
+                <propertyInstance
+                  Id="fcd3b556-1552-43be-8e2f-a678c28334e6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ea4baa02-e17f-417b-bb4f-a982f6de8240"
+        name="PerspectiveCamera"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="14ab732c-d33f-491d-80f8-5923b958b136"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows.Media.Media3D Type%3DPerspectiveCamera"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1ad0b8ed-0a9e-42c0-a4f7-8d72db9f42c1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c9a878a9-5b1d-4991-87ea-614286c07273">
+                <propertyInstance
+                  Id="e3c41e36-a759-4902-a44a-ba5da3d6cd28"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="889a56d3-c9e6-489c-a755-906182f11100">
+                <propertyInstance
+                  Id="38845a9c-7fd5-43c1-be5a-54a4b5b96697"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8076f9e4-f92b-4e81-9c0c-21709225ea11">
+                <propertyInstance
+                  Id="066393eb-a271-45da-9839-bd05e6fbaeae"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03395101-becd-468e-af4b-8e50365e7aa6">
+                <propertyInstance
+                  Id="11bc4c57-9289-4988-97c4-3ef8d9f5e501"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e816b897-5d2d-457a-ab32-5a7412999e73">
+                <propertyInstance
+                  Id="bb2fa4d8-2f97-48b4-9d71-563078e2e531"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fce78113-6738-444e-a0e5-632f903ca8e1"
+        name="Model3DGroup"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2e90b84e-fae6-4b8f-926a-33bd6eed9fc7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows.Media.Media3D Type%3DModel3DGroup"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="17d2e2d0-b118-4f4d-9a9d-4f274135ab50"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b547782-ebfe-4e10-b26c-9126c6982a86">
+                <propertyInstance
+                  Id="765fc6f3-491f-4a75-a52a-39f08b213b03"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f011030-2f8f-4988-a31a-d65655ba6184">
+                <propertyInstance
+                  Id="07935d9e-32a4-4f90-b127-4c8037d5e2c3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e6e4669-0a64-40d4-bfad-11eabedd4a57">
+                <propertyInstance
+                  Id="bf91aa7c-2eef-41af-aca5-5bd6b9e8229a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0401d631-974b-4e47-b8b3-6bf2d7945c43">
+                <propertyInstance
+                  Id="64aa6d72-d792-4b79-8869-30b5c73cc707"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65724a3e-e1e6-45c4-b394-db949095e207">
+                <propertyInstance
+                  Id="49dc7a8f-5fe5-4801-86bf-3c69a10eb81a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4427e155-5f60-4152-9efb-7bb0da050826"
+        name="ModelVisual3D"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="253aab06-800a-40a6-883a-2eafe98dd1e5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows.Media.Media3D Type%3DModelVisual3D"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a86b58ec-6b26-4ede-8a07-5cc3174ccb31"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d03a8445-10cb-4daf-81d8-e4a2bad650ef">
+                <propertyInstance
+                  Id="868fe282-017e-48d9-a939-7eaaf253651b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6bcc155-3e5e-4b20-9fa6-2e35bfe15abd">
+                <propertyInstance
+                  Id="c8beb264-a422-4513-812c-02725220a78a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86d98394-28a7-42d5-b3bf-3ab985d7f948">
+                <propertyInstance
+                  Id="2ca3ce8e-63b4-49a9-ab8a-72ad6fb457ca"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20aafb87-a393-4e4f-aa7a-02d2a9b46793">
+                <propertyInstance
+                  Id="eb1e3f1f-eda9-4f0e-af7c-8f5238f98db8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7a2cd25-61f3-4e01-883d-3080ccf3a288">
+                <propertyInstance
+                  Id="bb4a3669-0807-4f1d-b255-abac6c1fdf26"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

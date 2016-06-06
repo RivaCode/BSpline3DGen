@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="655c373c-e051-4c79-878c-ca52f822e933"
+  name="AlgorithmResults"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="144c8dde-c3be-4fa2-83b3-b817e05a03f5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBspline.Core.AlgorithmResults"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="910b8802-0c53-4de6-8873-f232810a99e3"
+        name="Matrix&lt;Point3D‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="399386de-40a9-488a-aefe-d13b8f2cc18b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8174d75c-ef36-4504-94df-d1e134d2bbd9">
+                <propertyInstance
+                  Id="ab185a98-7013-4451-8f4b-a88aeb8d773d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dd742677-62e5-4a0c-a7e1-f66661b7e685">
+                <propertyInstance
+                  Id="614041cc-8b46-48f3-bd63-ac86cd8f9803"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb71470b-f42e-4ffd-98cd-4c5b3c2ebcb2">
+                <propertyInstance
+                  Id="546e43a2-d494-4cb6-ac7e-8ddcc0561ba5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2fa4fcf-05ed-49fa-995a-1f6c3256cca9">
+                <propertyInstance
+                  Id="68f1022b-88ba-4773-9cfa-fe9944f4ab33"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d56a6f3d-5a86-48f5-a172-7c6671f1d6a4">
+                <propertyInstance
+                  Id="4b47a170-3199-4de3-bb74-fda3fe45a3fb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="25a19b34-6aa2-449e-8991-76d35160d4b4">
+            <redefinableTemplateSignatureMoniker
+              Id="7ab8a1bc-325a-4828-a7b0-ad509117d500"
+              LastKnownLocation="Package_2141.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="05cbce65-0f8f-4e68-8f60-2130bd0a6c80">
+                  <actuals>
+                    <classMoniker
+                      Id="98558119-3b7c-4d47-bbed-9df69291d450"
+                      LastKnownName="Point3D"
+                      LastKnownLocation="Package_2141.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="1d55f4ec-ef8c-4de9-a011-eb17adf74730"
+                      LastKnownLocation="Package_2141.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

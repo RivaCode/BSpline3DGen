@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="63e61a92-9ef2-4f4a-96b1-dfdeaaddab85"
+  name="WpfUI"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="193527d9-0739-429b-a6a9-b72bd86770d8"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBspline.WpfUI"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2554ac23-5723-476b-83e4-f0770a60ba95"
+        LastKnownName="ModelView"
+        LastKnownLocation="Package1_2139.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="31da5b3a-3278-4e9f-b663-de8ec647b9f3"
+        LastKnownName="Interfaces"
+        LastKnownLocation="Package2_2139.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c6b3135c-ca00-4867-981f-0d13f96e6922"
+        LastKnownName="DataManagment"
+        LastKnownLocation="Package5_2139.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="65f6fbeb-b27f-4e3f-9777-dc7a450fb9ba"
+        LastKnownName="Commands"
+        LastKnownLocation="Package17_2139.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

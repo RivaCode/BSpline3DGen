@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1fbbc474-5ef9-46e3-85fe-2be6fbb62bbd"
+  name="Bspline"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="46286098-87c6-472b-8c2e-71c2b60587c7"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBspline"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="955f6e8d-6daf-447f-8739-1fc0cfa42fcf"
+        LastKnownName="Media"
+        LastKnownLocation="Package1_2134.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9b14a503-ee5e-49f2-be93-5c4fc22ec536"
+        LastKnownName="Core"
+        LastKnownLocation="Package8_2134.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="63e61a92-9ef2-4f4a-96b1-dfdeaaddab85"
+        LastKnownName="WpfUI"
+        LastKnownLocation="Package_2139.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e92bb251-3459-4846-bdb2-6448c53dfd6c"
+        LastKnownName="Model"
+        LastKnownLocation="Package13_2139.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
